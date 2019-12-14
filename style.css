@@ -570,6 +570,7 @@ div#preloader.fluidview {
 	max-height: 200px;
 	margin: 0 5px 0 0;
 	display:inline;
+
 }
 .nav-center .navbar-brand img{
 	margin:0;
@@ -686,8 +687,9 @@ nav .caret{
 	position:fixed;
 	top:0;
 	z-index:1000;
-	box-shadow:0 1px 2px rgba(0,0,0,.3);
+	box-shadow:0 1px 2px rgba(0,0,0,.2);
 	 transition: all .2s ease-out;
+
 }
 
 /* Force Mini Menu */
@@ -1625,5 +1627,26 @@ p{
 .restricted-width {
 	max-width: 550px;
 	margin: 0 auto;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+
+/*make header navbrand disappear*/
+
+#index .navbar-brand {
+	visibility: hidden;
+}
+
+
+#index .sticky-nav.sticky .navbar-brand{
+	 visibility: visible;
+	 
+}
+
+#snacks .fa {
+	max-width: 50%;
 }
 
