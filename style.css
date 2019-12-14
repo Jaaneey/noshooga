@@ -319,7 +319,9 @@ div#preloader.fluidview {
 }
 #polydom-1 h1{
 	font-size: 96px;
-	line-height: 112px;
+	/*CHANGE***************************************************/
+	font-size: 65px;
+	line-height: 80px;
 }
 #polydom-1 h2{
 	font-weight: 400;
@@ -963,7 +965,16 @@ button{
 	border-radius: 50%;
 	padding: 32px 30px 26px 30px;
 	min-width:80px;
+	/*NEW*************************************************************************************/
+	
+	padding: 20px 20px 20px 20px;
 }
+
+.fa img {
+	max-width: 100%;
+}
+
+
 .icon-round.icon-md,.icon-square.icon-md,.icon-rounded.icon-md{
 	min-width: 92px;
 }
@@ -1604,4 +1615,15 @@ p{
 }
 }
 
+
+/*CUSTOM*/
+.danika-pic {
+	max-width: 100%;
+
+}
+
+.restricted-width {
+	max-width: 550px;
+	margin: 0 auto;
+}
 
