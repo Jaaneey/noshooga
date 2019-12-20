@@ -1344,6 +1344,9 @@ p{
 	background-image:url("img/slideshow/01.jpg");
 }
 
+
+
+
 /*-----------------------------------------------------------------------------------
 
         7. Mobile Syles
@@ -1649,4 +1652,51 @@ p{
 #snacks .fa {
 	max-width: 50%;
 }
+
+.bg-header{
+	background-color: #fff;
+}
+
+span.icon-round {
+	
+background-image: radial-gradient(circle, #ff2144, #ff0067, #ef0095, #c000cb, #4209ff);	border: none;
+}
+
+span.icon-round.opposite {
+	background-image: radial-gradient(circle, #4209ff, #007eff, #00a2fd, #00b998, #3ac842);
+	border: none;
+}
+
+.bgc-footer {
+background-image: linear-gradient(to left top, #de0101, #f00054, #ea3b93, #cf67c3, #ab88e0, #998ee7, #8494ec, #6e9aef, #5c8ff4, #4a84f9, #3679fc, #1e6dff);}
+
+
+.bgc-stars {
+	background-image: url(img/no_shooga/bg-stars-01.png);
+}
+
+.bgc-header {}
+
+
+/*Adjusting Sizing*/
+
+#polydom-68 h2 {
+	font-size: 2em;
+}
+#polydom-68 p {
+	font-size: 1.2em;
+	padding-top: 1rem;
+}
+
+#polydom-68 h3 {
+	font-size: 1.5em;
+	
+}
+
+.mw-400{
+	padding: 0 20%;
+	margin: 0 auto;
+}
+
+
 
