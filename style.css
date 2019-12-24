@@ -122,6 +122,11 @@ div#preloader.fluidview {
 	padding:20px 50px;
 }
 
+.polydom-md{
+	padding:50px 50px 100px 30px;
+}
+
+
 /* = Full Screen polydoms 
 -------------------------------------------------------------- */
 
@@ -1698,5 +1703,37 @@ background-image: linear-gradient(to left top, #de0101, #f00054, #ea3b93, #cf67c
 	margin: 0 auto;
 }
 
+.call2action {
+	color: white;
+	padding: 1rem 2rem;
+	margin: 0 auto;
+	background-image: linear-gradient(to left top, #de0101, #f00054, #ea3b93, #cf67c3, #ab88e0, #998ee7, #8494ec, #6e9aef, #5c8ff4, #4a84f9, #3679fc, #1e6dff);
+	letter-spacing: .1em;
+	margin-top: 10px;
+}
 
+#polydom-1 h2 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 2em;
+	letter-spacing: .1em;
+
+
+}
+
+h1, h2  {
+    font-family: 'Comfortaa', cursive; 
+	
+}
+
+.d-polydom.bgc-footer {
+	color: white;
+}
+
+.d-polydom h3 a {
+	color: white;
+}
+
+.d-polydom h3 a:hover {
+	color: black;
+}
 
