@@ -92,7 +92,7 @@
 	<div class="container polydom-xl">
 		<div class="row pulse animated">
 			<div class="col-sm-12">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" action="https://formspree.io/xrgekbal" method="POST">
 				<!-- <form id="form_1"> -->
 					<div class="form-group">
 						<label>
@@ -111,9 +111,9 @@
 							Message
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="polydom-button btn btn-lg btn-block btn-sq btn-black" type="submit">
-						Submit
-					</button>
+					<input class="polydom-button btn btn-lg btn-block btn-sq btn-black" type="submit" value="Send">
+					<input type="hidden" name="_next" value="https://noshooga.com"/>
+						
 				</form>
 			</div>
 		</div>
