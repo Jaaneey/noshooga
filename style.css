@@ -907,7 +907,7 @@ nav .caret{
 }
 .mg-md{
 	margin-top:10px;
-	margin-bottom:20px;
+	margin-bottom:10px;
 }
 img.mg-sm,img.mg-md,img.mg-lg{
 	margin-top: 0;
@@ -1735,5 +1735,9 @@ h1, h2  {
 
 .d-polydom h3 a:hover {
 	color: black;
+}
+
+.mb-10 {
+	margin-bottom:  20px;
 }
 
